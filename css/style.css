@@ -29,7 +29,7 @@ section#logo{
 }
 
 section#logo img{
-    width: 200px;
+    width: 180px;
     height: 180px;
 }
 
@@ -82,7 +82,7 @@ nav.menu ul a:hover {
 }
 
 nav.menu ul li img.menuImg{
-    width: 100px;
+    width: 80px;
     height: 80px;
 }
 
@@ -123,7 +123,7 @@ section#galeria div.carousel{
 }
 
 section#galeria div.carousel div.carousel-inner{
-	height: 600px;
+	height: 100%;
 	border-radius: 40px 40px 40px 40px;
 }
 
