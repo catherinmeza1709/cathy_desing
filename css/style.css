@@ -29,8 +29,8 @@ section#logo{
 }
 
 section#logo img{
-    width: 150px;
-    height: 130px;
+    width: 200px;
+    height: 180px;
 }
 
 div.menu_bar{
@@ -95,12 +95,11 @@ nav.menu ul li img.menuImg{
 
 
 div.banner{
-	background-color: green;
+	background-color: rgba(0, 0, 0, 0.5);
 	width: 100vw;
 	height: 90vh;
     padding-top: 100px;
-
-
+    color: #ECDFD3;
 }
 
 /*--------------- GALERIA------------------- */
@@ -236,7 +235,7 @@ section#contacto  input.boton{
 }
 
 .contactoImg{
-	width: 75%;
+	width: 60%;
 	height: 85%;
 }
 
@@ -311,6 +310,10 @@ footer section div a img{
     
     form.formulario{
         margin-left: 10%;
+    }
+    
+    .contactoImg{
+        width: 80%;
     }
     
   
@@ -394,6 +397,8 @@ footer section div a img{
 	.divContacto:nth-child(2){
 		order: 1;
 	}
+    
+
   
   /*--------------FOOTER-----------------*/
     footer section p{
