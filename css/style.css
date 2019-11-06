@@ -291,6 +291,13 @@ footer section div a img{
         height: 100%;
     }
     
+ /*--------------- SOBRE MI------------------- */
+    
+    section#sobremi img.sobremi_img {
+        width: 300px;
+        height: 300px;
+    }
+    
  /*--------------- PROYECTOS RECIENTES------------------- */
     section#proyectos  div.proyectoImg img{
         border-radius: 40px 40px 40px 40px;
@@ -362,6 +369,11 @@ footer section div a img{
 	.sobremiTitle2{
 		display: none;
 	}
+    
+    section#sobremi img.sobremi_img {
+        width: 300px;
+        height: 300px;
+    }
     
   /*--------------- PROYECTOS RECIENTES------------------- */
     
@@ -488,6 +500,11 @@ footer section div a img{
 	.sobremiTitle2{
 		display: none;
 	}
+    
+    section#sobremi img.sobremi_img {
+        width: 200px;
+        height: 200px;
+    }
 
   /*--------------- PROYECTOS RECIENTES------------------- */
     section#proyectos  div.proyectoImg img{
