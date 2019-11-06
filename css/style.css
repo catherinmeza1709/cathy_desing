@@ -141,8 +141,8 @@ section#sobremi{
 }
 
 section#sobremi img.sobremi_img{
-	width: 300px;
-	height: 300px;
+	width: 400px;
+	height: 400px;
 }
 
 section#sobremi h2{
@@ -246,13 +246,12 @@ footer{
 
 footer section{
 	color: #fff;
-	padding: 20px;
 }
 
 footer section div a img{
 	margin: 20px;
-	width: 90px;
-	height: 90px;
+	width: 60px;
+	height: 60px;
 }
 
 /*--------------MEDIA QUERYS-----------------*/
