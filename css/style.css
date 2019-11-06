@@ -516,6 +516,12 @@ footer section div a img{
     div.proyectoImg{
         padding: 30px;
     }
+    div.proyectoText h3{
+        font-size: 20px;
+    }
+    div.proyectoText p{
+        font-size: 12px;
+    }
     
   /*--------------- CONTACTO------------------- */
     section#contacto  form input,
