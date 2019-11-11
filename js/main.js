@@ -18,7 +18,8 @@ $(document).ready(function(){
 		zindex : 999
 	});
     
-    $('.link').click(function(){
+    $('.link').click(function(event){
+      event.preventDefault();
 	  var target = $(this.hash);
 
 	  $('html, body').animate({
