@@ -6,6 +6,7 @@
 
 html{
     overflow-x: hidden;
+
 }
 
 
@@ -19,6 +20,18 @@ h1, h2, h3, h4, h5, h6, p, a{
 	z-index: 100;
 }
 
+	
+/*Loading page*/
+.jm-loadingpage {
+ position: fixed;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 999999999;
+ background: url(../img/giphy.gif) center no-repeat #fff;
+}
+/*Loading page*/
 
 
 /*--------------- MENU------------------- */
@@ -87,7 +100,9 @@ nav.menu ul li img.menuImg{
 }
 
 
-
+.menu-tablet{
+    display: none;
+}
 
 
 
@@ -271,8 +286,12 @@ footer section div a img{
     
     }
     
-    nav.menu ul li:nth-child(1){
-        display: none;
+    .menu-tablet{
+        display: block;
+    }
+    
+    .menu-pc{
+        display: none
     }
     
   /*--------------- INICIO------------------- */
@@ -340,8 +359,13 @@ footer section div a img{
     
     }
     
-    nav.menu ul li:nth-child(1){
-        display: none;
+    
+    .menu-tablet{
+        display: block;
+    }
+    
+    .menu-pc{
+        display: none
     }
     
   /*--------------- INICIO------------------- */
@@ -434,9 +458,6 @@ footer section div a img{
         display: none;
     }
     
-    nav.menu ul li:nth-child(1){
-        display: none;
-    }
     
     nav.menu ul li{
         border-bottom:1px solid #eaeaea;
@@ -472,6 +493,13 @@ footer section div a img{
     div.menu_bar span.bt-menu{
         color: black;
         cursor: pointer;
+    }
+    .menu-tablet{
+        display: block;
+    }
+    
+    .menu-pc{
+        display: none
     }
     
     
