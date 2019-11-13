@@ -110,7 +110,8 @@ nav.menu ul li img.menuImg{
 
 
 div.banner{
-	background-color: rgba(0, 0, 0, 0.5);
+	background-image: url(../img/hero.jpeg);
+    background-size: cover;
 	width: 100vw;
 	height: 90vh;
     padding-top: 100px;
